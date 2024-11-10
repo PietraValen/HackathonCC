@@ -88,7 +88,7 @@ plt.show()
 Este código gera e analisa dados de temperatura diários, com etapas de decomposição, detecção de anomalias e previsão dos próximos 7 dias.
 ==========================================================================================================================================
 
-  ##2 CODIGO ALTERNATIVO
+  # 2 CODIGO ALTERNATIVO
 
 # Análise e Previsão de Temperaturas com Dados Sintéticos
 
