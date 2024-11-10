@@ -66,4 +66,5 @@ plt.plot(dados, color='blue', label='Histórico de Temperaturas')
 plt.plot(previsao, color='green', label='Previsão de Temperatura')
 plt.legend()
 plt.show()
+
 Este código gera e analisa dados de temperatura diários, com etapas de decomposição, detecção de anomalias e previsão dos próximos 7 dias.
