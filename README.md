@@ -3,34 +3,39 @@
 Análise e Previsão de Temperaturas com Python
 Este projeto realiza a análise de uma série temporal de dados de temperatura, incluindo a geração de dados sintéticos, visualização, decomposição da série, detecção de anomalias e previsão de temperatura utilizando o modelo ARIMA.
 
-Funcionalidades
-Geração de Dados Sintéticos: Criação de dados de temperatura diária com tendência sazonal e ruído aleatório.
-Visualização de Dados: Plotagem dos dados de temperatura simulados.
-Decomposição da Série Temporal: Decomposição da série em tendências e sazonalidade para análise detalhada.
-Detecção de Anomalias: Identificação de temperaturas anômalas, utilizando uma abordagem baseada em desvios padrão.
-Previsão de Temperatura: Previsão de temperatura para os próximos 7 dias com o modelo ARIMA.
-Requisitos
+#Funcionalidades
+1. **Geração de Dados Sintéticos**: Criação de dados de temperatura diária com tendência sazonal e ruído aleatório.
+2. **Visualização de Dados**: Plotagem dos dados de temperatura simulados.
+3. **Decomposição da Série Temporal**: Decomposição da série em tendências e sazonalidade para análise detalhada.
+4. **Detecção de Anomalias**: Identificação de temperaturas anômalas utilizando uma abordagem baseada em desvios padrão.
+5. **Previsão de Temperatura**: Previsão de temperatura para os próximos 7 dias com o modelo ARIMA.
+
+
+#Requisitos
 Para executar o projeto, você precisará das seguintes bibliotecas Python:
 
 bash
 Copiar código
+
 pip install pandas numpy matplotlib statsmodels
-Como Usar
+
+#Como Usar
 Carregar Dados Sintéticos:
+
 
 python
 Copiar código
 dados = carregar_dados_sinteticos()
 Gera dados de temperatura simulados para análise.
 
-Decompor Série Temporal:
+#Decompor Série Temporal:
 
 python
 Copiar código
 decompor_serie(dados)
 Decompõe os dados de temperatura em componentes de tendência, sazonalidade e ruído.
 
-Detectar e Visualizar Anomalias:
+#Detectar e Visualizar Anomalias:
 
 python
 Copiar código
